@@ -18,6 +18,7 @@
       <sprite>sprites\Spr_Breakable1</sprite>
       <sprite>sprites\Spr_Breakable2</sprite>
       <sprite>sprites\Spr_EnemyWall</sprite>
+      <sprite>sprites\Spr_DisWall</sprite>
       <sprite>sprites\Spr_Door</sprite>
     </sprites>
     <sprites name="Molly Roger">
@@ -72,6 +73,7 @@
       <sprite>sprites\Spr_WheelerDealerAttackRight</sprite>
       <sprite>sprites\Spr_WheelerDealerAttackLeft</sprite>
     </sprites>
+    <sprite>sprites\Spr_SwordUpgrade</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Bkg_Sky</background>
@@ -111,6 +113,7 @@
     </objects>
     <objects name="Blocks">
       <object>objects\Obj_Wall</object>
+      <object>objects\Obj_DisWall</object>
       <object>objects\Obj_Platform</object>
       <object>objects\Obj_Breakable1</object>
       <object>objects\Obj_Breakable2</object>
@@ -119,6 +122,7 @@
     <objects name="Effects">
       <object>objects\Obj_EnemyBreak</object>
       <object>objects\Obj_MediumScreenshake</object>
+      <object>objects\Obj_Dust</object>
       <object>objects\Obj_FallingCutscene</object>
     </objects>
     <objects name="Controllers">
@@ -130,14 +134,17 @@
     </objects>
     <objects name="Room Scripts">
       <object>objects\Obj_Room6</object>
+      <object>objects\Obj_Room14</object>
     </objects>
     <objects name="Upgrades">
       <object>objects\Obj_HealthUpgrade</object>
+      <object>objects\Obj_SwordUpgrade</object>
       <object>objects\object25</object>
     </objects>
     <object>objects\Obj_Reset</object>
     <object>objects\Obj_InstructionsTitle</object>
     <object>objects\Obj_InstructionsGame</object>
+    <object>objects\Obj_Pitfall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Rm_Title</room>
@@ -149,10 +156,18 @@
     <room>rooms\Rm_4</room>
     <room>rooms\Rm_5</room>
     <room>rooms\Rm_6</room>
+    <room>rooms\Rm_7</room>
+    <room>rooms\Rm_8</room>
     <room>rooms\Rm_StartShip</room>
     <room>rooms\Rm_FallingCutscene</room>
     <room>rooms\Rm_GameOver</room>
-    <room>rooms\room12</room>
+    <room>rooms\Rm_9</room>
+    <room>rooms\Rm_10</room>
+    <room>rooms\Rm_11</room>
+    <room>rooms\Rm_12</room>
+    <room>rooms\Rm_13</room>
+    <room>rooms\Rm_14</room>
+    <room>rooms\Rm_15</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
